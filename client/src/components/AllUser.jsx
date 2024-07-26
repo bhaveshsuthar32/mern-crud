@@ -7,7 +7,7 @@ import { getUsers } from '../service/api.js';
 const StyleTable = styled(Table)({
     width : '60%',
     margin: '50px auto 50px auto',
-    border: '2px solid black'
+    border: '1px solid black'
 })
 
 const Thead = styled(TableHead)({
