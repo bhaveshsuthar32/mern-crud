@@ -10,7 +10,7 @@ export const addUser = async (req,res)=>{
     try {
         await newUser.save();
         res.status(201).json(newUser);
-        console.log(newUser)
+        // console.log(newUser)
     } catch (error) {
         console.log(error)
         res.status(409).json({error: message.error})
