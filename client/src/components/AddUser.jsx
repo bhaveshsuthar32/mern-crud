@@ -53,7 +53,7 @@ const AddUser = () => {
                         <input type="text" className="form-control" id="phno" onChange={(e)=>handleChange(e)} name="phone"/>
                     </div>
 
-                    <button type="submit" className="btn btn-primary" >Submit</button>
+                    <button type="submit" className="btn btn-primary" >Save</button>
                 </form>
             </div>
         </>
