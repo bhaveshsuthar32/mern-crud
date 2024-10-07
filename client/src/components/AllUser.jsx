@@ -51,7 +51,7 @@ const AllUser = ()=>{
                             <TableCell>{user.email}</TableCell>
                             <TableCell>{user.phone}</TableCell>
                             <TableCell>
-                               Edit / Delete
+                               Edit / Delete 
                             </TableCell>
                         </TableRow>
                     ))}
